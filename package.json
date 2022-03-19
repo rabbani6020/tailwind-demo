@@ -1,0 +1,12 @@
+{
+  "name": "tailwind-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn tailwindcss -i ./src/css/tailwind.css -o ./dist/css/tailwind.css -w"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
